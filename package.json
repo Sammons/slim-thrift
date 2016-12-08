@@ -1,11 +1,16 @@
 {
   "name": "slim-thrift",
   "version": "1.0.0",
-  "description": "cut-down installation of thrift 0.9.3",
-  "main": "index.js",
+  "description": "cut-down installation of thrift",
+  "main": "./lib/nodejs/lib/thrift",
   "author": "Ben Sammons",
   "license": "MIT",
+  "dependencies": {
+    "node-int64": "~0.3.0",
+    "q": "1.0.x",
+    "ws": "~0.4.32"
+  },
   "devDependencies": {
-    "thrift": "^0.9.3"
+    "thrift": "0.9.3"
   }
 }
